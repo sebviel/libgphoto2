@@ -1,0 +1,460 @@
+/main/actions/syncdatetime
+Label: Synchronize camera date and time with PC
+Readonly: 0
+Type: TOGGLE
+Current: 0
+END
+/main/actions/uilock
+Label: UI Lock
+Readonly: 0
+Type: TOGGLE
+Current: 2
+END
+/main/actions/eosmoviemode
+Label: Movie Mode
+Readonly: 0
+Type: TOGGLE
+Current: 2
+END
+/main/actions/opcode
+Label: PTP Opcode
+Readonly: 0
+Type: TEXT
+Current: 0x1001,0xparam1,0xparam2
+END
+/main/settings/datetime
+Label: Camera Date and Time
+Readonly: 0
+Type: DATE
+Current: 1710607457
+Printable: Sat 16 Mar 2024 05:44:17 PM CET
+Help: Use 'now' as the current time when setting.
+
+END
+/main/settings/ownername
+Label: Owner Name
+Readonly: 0
+Type: TEXT
+Current: unknown
+END
+/main/settings/autopoweroff
+Label: Auto Power Off
+Readonly: 0
+Type: TEXT
+Current: 1800
+END
+/main/settings/capturetarget
+Label: Capture Target
+Readonly: 0
+Type: RADIO
+Current: Internal RAM
+Choice: 0 Internal RAM
+Choice: 1 Memory card
+END
+/main/settings/capture
+Label: Capture
+Readonly: 0
+Type: TOGGLE
+Current: 0
+END
+/main/settings/remotemode
+Label: Remote Mode
+Readonly: 0
+Type: TEXT
+Current: 1
+END
+/main/settings/eventmode
+Label: Event Mode
+Readonly: 0
+Type: TEXT
+Current: 0
+END
+/main/status/serialnumber
+Label: Serial Number
+Readonly: 1
+Type: TEXT
+Current: 1120803728
+END
+/main/status/manufacturer
+Label: Camera Manufacturer
+Readonly: 1
+Type: TEXT
+Current: Canon Inc.
+END
+/main/status/cameramodel
+Label: Camera Model
+Readonly: 1
+Type: TEXT
+Current: Canon EOS 30D
+END
+/main/status/deviceversion
+Label: Device Version
+Readonly: 1
+Type: TEXT
+Current: 3-1.0.6
+END
+/main/status/vendorextension
+Label: Vendor Extension
+Readonly: 1
+Type: TEXT
+Current: 
+END
+/main/status/model
+Label: Camera Model
+Readonly: 1
+Type: TEXT
+Current: 2147484212
+END
+/main/status/ptpversion
+Label: PTP Version
+Readonly: 1
+Type: TEXT
+Current: 256
+END
+/main/status/dpofversion
+Label: DPOF Version
+Readonly: 1
+Type: TEXT
+Current: 257
+END
+/main/status/batterylevel
+Label: Battery Level
+Readonly: 1
+Type: TEXT
+Current: 100%
+END
+/main/status/availableshots
+Label: Available Shots
+Readonly: 1
+Type: TEXT
+Current: 95087
+END
+/main/imgsettings/imageformat
+Label: Image Format
+Readonly: 0
+Type: RADIO
+Current: RAW + Large Normal JPEG
+Choice: 0 Large Fine JPEG
+Choice: 1 Large Normal JPEG
+Choice: 2 Medium Fine JPEG
+Choice: 3 Medium Normal JPEG
+Choice: 4 Small Fine JPEG
+Choice: 5 Small Normal JPEG
+Choice: 6 RAW
+Choice: 7 RAW + Large Fine JPEG
+Choice: 8 RAW + Large Normal JPEG
+Choice: 9 RAW + Medium Fine JPEG
+Choice: 10 RAW + Medium Normal JPEG
+Choice: 11 RAW + Small Fine JPEG
+Choice: 12 RAW + Small Normal JPEG
+END
+/main/imgsettings/iso
+Label: ISO Speed
+Readonly: 0
+Type: RADIO
+Current: 400
+Choice: 0 100
+Choice: 1 125
+Choice: 2 160
+Choice: 3 200
+Choice: 4 250
+Choice: 5 320
+Choice: 6 400
+Choice: 7 500
+Choice: 8 640
+Choice: 9 800
+Choice: 10 1000
+Choice: 11 1250
+Choice: 12 1600
+Choice: 13 3200
+END
+/main/imgsettings/whitebalance
+Label: WhiteBalance
+Readonly: 0
+Type: RADIO
+Current: Auto
+Choice: 0 Auto
+Choice: 1 Daylight
+Choice: 2 Cloudy
+Choice: 3 Tungsten
+Choice: 4 Fluorescent
+Choice: 5 Flash
+Choice: 6 Manual
+Choice: 7 Shadow
+Choice: 8 Color Temperature
+END
+/main/imgsettings/colortemperature
+Label: Color Temperature
+Readonly: 0
+Type: RADIO
+Current: 5200
+Choice: 0 2800
+Choice: 1 2900
+Choice: 2 3000
+Choice: 3 3100
+Choice: 4 3200
+Choice: 5 3300
+Choice: 6 3400
+Choice: 7 3500
+Choice: 8 3600
+Choice: 9 3700
+Choice: 10 3800
+Choice: 11 3900
+Choice: 12 4000
+Choice: 13 4100
+Choice: 14 4200
+Choice: 15 4300
+Choice: 16 4400
+Choice: 17 4500
+Choice: 18 4600
+Choice: 19 4700
+Choice: 20 4800
+Choice: 21 4900
+Choice: 22 5000
+Choice: 23 5100
+Choice: 24 5200
+Choice: 25 5300
+Choice: 26 5400
+Choice: 27 5500
+Choice: 28 5600
+Choice: 29 5700
+Choice: 30 5800
+Choice: 31 5900
+Choice: 32 6000
+Choice: 33 6100
+Choice: 34 6200
+Choice: 35 6300
+Choice: 36 6400
+Choice: 37 6500
+Choice: 38 6600
+Choice: 39 6700
+Choice: 40 6800
+Choice: 41 6900
+Choice: 42 7000
+Choice: 43 7100
+Choice: 44 7200
+Choice: 45 7300
+Choice: 46 7400
+Choice: 47 7500
+Choice: 48 7600
+Choice: 49 7700
+Choice: 50 7800
+Choice: 51 7900
+Choice: 52 8000
+Choice: 53 8100
+Choice: 54 8200
+Choice: 55 8300
+Choice: 56 8400
+Choice: 57 8500
+Choice: 58 8600
+Choice: 59 8700
+Choice: 60 8800
+Choice: 61 8900
+Choice: 62 9000
+Choice: 63 9100
+Choice: 64 9200
+Choice: 65 9300
+Choice: 66 9400
+Choice: 67 9500
+Choice: 68 9600
+Choice: 69 9700
+Choice: 70 9800
+Choice: 71 9900
+Choice: 72 10000
+END
+/main/imgsettings/whitebalanceadjusta
+Label: WhiteBalance Adjust A
+Readonly: 0
+Type: RADIO
+Current: 0
+Choice: 0 -9
+Choice: 1 -8
+Choice: 2 -7
+Choice: 3 -6
+Choice: 4 -5
+Choice: 5 -4
+Choice: 6 -3
+Choice: 7 -2
+Choice: 8 -1
+Choice: 9 0
+Choice: 10 1
+Choice: 11 2
+Choice: 12 3
+Choice: 13 4
+Choice: 14 5
+Choice: 15 6
+Choice: 16 7
+Choice: 17 8
+Choice: 18 9
+END
+/main/imgsettings/whitebalanceadjustb
+Label: WhiteBalance Adjust B
+Readonly: 0
+Type: RADIO
+Current: 0
+Choice: 0 -9
+Choice: 1 -8
+Choice: 2 -7
+Choice: 3 -6
+Choice: 4 -5
+Choice: 5 -4
+Choice: 6 -3
+Choice: 7 -2
+Choice: 8 -1
+Choice: 9 0
+Choice: 10 1
+Choice: 11 2
+Choice: 12 3
+Choice: 13 4
+Choice: 14 5
+Choice: 15 6
+Choice: 16 7
+Choice: 17 8
+Choice: 18 9
+END
+/main/imgsettings/whitebalancexa
+Label: WhiteBalance X A
+Readonly: 1
+Type: TEXT
+Current: 0
+END
+/main/imgsettings/whitebalancexb
+Label: WhiteBalance X B
+Readonly: 1
+Type: TEXT
+Current: 0
+END
+/main/imgsettings/colorspace
+Label: Color Space
+Readonly: 0
+Type: RADIO
+Current: sRGB
+Choice: 0 sRGB
+Choice: 1 AdobeRGB
+END
+/main/capturesettings/exposurecompensation
+Label: Exposure Compensation
+Readonly: 0
+Type: RADIO
+Current: -2
+Choice: 0 -2
+Choice: 1 -1.6
+Choice: 2 -1.3
+Choice: 3 -1
+Choice: 4 -0.6
+Choice: 5 -0.3
+Choice: 6 0
+Choice: 7 0.3
+Choice: 8 0.6
+Choice: 9 1
+Choice: 10 1.3
+Choice: 11 1.6
+Choice: 12 2
+END
+/main/capturesettings/focusmode
+Label: Focus Mode
+Readonly: 0
+Type: RADIO
+Current: Manual
+Choice: 0 Manual
+END
+/main/capturesettings/autoexposuremode
+Label: Canon Auto Exposure Mode
+Readonly: 0
+Type: RADIO
+Current: A_DEP
+Choice: 0 P
+Choice: 1 TV
+Choice: 2 AV
+Choice: 3 Manual
+Choice: 4 Bulb
+Choice: 5 A_DEP
+Choice: 6 DEP
+Choice: 7 Custom
+Choice: 8 Lock
+Choice: 9 Green
+Choice: 10 Night Portrait
+Choice: 11 Sports
+Choice: 12 Portrait
+Choice: 13 Landscape
+Choice: 14 Closeup
+Choice: 15 Flash Off
+Choice: 16 C2
+Choice: 17 C3
+Choice: 18 Creative Auto
+Choice: 19 Movie
+Choice: 20 Auto
+Choice: 21 Handheld Night Scene
+Choice: 22 HDR Backlight Control
+Choice: 23 SCN
+Choice: 24 Food
+Choice: 25 Grainy B/W
+Choice: 26 Soft focus
+Choice: 27 Toy camera effect
+Choice: 28 Fish-eye effect
+Choice: 29 Water painting effect
+Choice: 30 Miniature effect
+Choice: 31 HDR art standard
+Choice: 32 HDR art vivid
+Choice: 33 HDR art bold
+Choice: 34 HDR art embossed
+Choice: 35 Panning
+Choice: 36 HDR
+Choice: 37 Self Portrait
+Choice: 38 Hybrid Auto
+Choice: 39 Smooth skin
+Choice: 40 Fv
+END
+/main/capturesettings/drivemode
+Label: Drive Mode
+Readonly: 0
+Type: RADIO
+Current: Single
+Choice: 0 Single
+END
+/main/capturesettings/picturestyle
+Label: Picture Style
+Readonly: 0
+Type: RADIO
+Current: Standard
+Choice: 0 Standard
+Choice: 1 Portrait
+Choice: 2 Landscape
+Choice: 3 Neutral
+Choice: 4 Faithful
+Choice: 5 Monochrome
+Choice: 6 User defined 1
+Choice: 7 User defined 2
+Choice: 8 User defined 3
+END
+/main/capturesettings/aperture
+Label: Aperture
+Readonly: 0
+Type: RADIO
+Current: implicit auto
+Choice: 0 implicit auto
+END
+/main/capturesettings/shutterspeed
+Label: Shutter Speed
+Readonly: 0
+Type: RADIO
+Current: bulb
+Choice: 0 bulb
+END
+/main/capturesettings/meteringmode
+Label: Metering Mode
+Readonly: 0
+Type: RADIO
+Current: Evaluative
+Choice: 0 Spot
+Choice: 1 Evaluative
+Choice: 2 Partial
+Choice: 3 Center-weighted average
+END
+/main/capturesettings/bracketmode
+Label: Bracket Mode
+Readonly: 0
+Type: RADIO
+Current: Unknown value 0000
+Choice: 0 Unknown value 0000
+END

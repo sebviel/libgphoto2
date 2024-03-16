@@ -1,0 +1,29 @@
+Camera summary:
+Manufacturer: Canon Inc.
+Model: Canon EOS 30D
+  Version: 3-1.0.6
+  Serial Number: 1120803728
+Vendor Extension ID: 0xb (2.0)
+Vendor Extension Description: 
+
+Capture Formats: JPEG
+Display Formats: Script, DPOF, MS AVI, MS Wave, JPEG, CRW, Unknown(bf02)
+
+Device Capabilities:
+	File Download, File Deletion, File Upload
+	No Image Capture, No Open Capture, Canon EOS Capture
+
+Storage Devices Summary:
+store_00000001:
+	StorageDescription: CF
+	VolumeLabel: A:
+	Storage Type: Removable RAM (memory card)
+	Filesystemtype: Digital Camera Layout (DCIM)
+	Access Capability: Read-Write
+	Maximum Capability: 3989643264 (3804 MB)
+	Free Space (Bytes): 3946295296 (3763 MB)
+	Free Space (Images): -1
+
+Device Property Summary:
+Model ID(0xd049): error 2005 on query.
+
